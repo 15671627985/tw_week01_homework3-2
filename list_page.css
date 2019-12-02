@@ -1,0 +1,74 @@
+.div1, .div2, .div3, .div4 {
+  width: 600px;
+  height: 80px;
+  background-color: red;
+  
+  margin:  auto ;
+} 
+
+.div1 {
+  margin-top: 100px;
+  border-radius: 20px;
+}
+
+.div2 {
+  margin-top: 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.div3 {
+  border: white solid 0.1px;
+}
+
+.div4 {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.saint {
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+   font-size: 50px;
+   margin-left: 30px;
+   margin-top: 10px;
+   display: inline-block;
+ }
+
+ .white-triangle {
+   position: absolute;
+   display: inline;
+   margin: 30px 10px 30px 80px;
+
+
+   border-width: 30px;
+   border-style: solid dashed dashed dashed;
+   border-color: white transparent transparent transparent;
+ } 
+
+ .red-triangle {
+   position: absolute;
+   margin-left: 58.4%;
+  
+   border-width: 30px;
+   border-style: dashed dashed solid dashed;
+   border-color: transparent transparent red transparent;
+ }
+
+ .like_icon, .discuss_icon {
+   margin-top: 15px;
+   margin-left: 30px;
+}
+ .Like, .Favorites, .Discuss {
+   position: absolute;
+   margin-left: 50px;
+   margin-top: 12px;
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+   font-size: 50px;
+ }
+
+ .favorite_icon {
+   margin-top: 15px;
+   margin-left: 22px;
+ }
